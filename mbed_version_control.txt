@@ -1,0 +1,48 @@
+MBED VERSION CONTROL
+====================
+ 
+Each program has its own local repository, so you can commit and perform actions on it within your own workspace (such as updating, branching and showing changes).
+ 
+LOCAL ERPOSITORY
+ 
+commit - saves files, to the local repository to create new revisions
+switch to a revision, which changes the your working copy to that revision
+publish - Create REMOTE REPOSITORY
+branch  do some commits. switch to previous revision. make some more commits
+merge - often want to merge the head of a branch into you working copy
+
+COLLABORATION TERMS
+ 
+Remote repository - A library or program which is published on mbed.org.
+Local repository - A library or program which is in your private workspace.
+Commit - Create a checkpoint within your program's local repository. This does not publish or make public your program
+Pull - Copy changes from Remote repository to a Local repository in your workspace.
+Push - Copy changes from Local repository to a Remote one.
+Fork - Create Remote repository on mbed.org from imported Local repository (that may also contain local changes/modifications) under your profile.
+Publish - This copies changes from a local repository to an existing remote one (push) or creates a new one (fork)
+Update - Pull from a Remote repository and switch your Local repository to the latest revision.
+ 
+Programs and libraries can depend on other published code to deliver a functionality.
+
+SINGLE AUTHOR COLABORATION - IMPORT
+One author develops a project, multiple users import and use it.
+
+Once imported the Local repository in your workspace will be 'linked' to the Remote repository by URL to let you check it's status, receive new changes and even contribute code to it.
+
+FORKING
+
+When you add changes to an imported repository in your private workspace, you might want to publish them for others to use.
+Unless you are the author of the imported repository or have developer access (see working with multiple authors), you would be forced to fork (or re-publish).
+ 
+You HAVE to do this if you don't have developer rights
+ 
+FORKED REPOSITORY (URL)
+When you fork a repository, the Local repository in your workspace will be linked to the forked Remote repository - the URL changes to the forked repository URL. You can change the URL by clicking the pencil icon next to the URL in the Revisions panel.
+
+If someone forks one of your repositories and modifies it, you can easily pull in any changes they have made into your own workspace. First click the 'Update From ...' button as shown below:
+ 
+MULTIPLE AUTHOR COLABORATION
+
+ 
+ 
+ 
